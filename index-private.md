@@ -2,7 +2,7 @@
 ![](images/self-240px.jpg)
 
 # *sevenon's project archive*
-https://github.com/sevenon
+[https://github.com/sevenon](https://github.com/sevenon)
 
 <br>
 
@@ -31,7 +31,7 @@ I played Frogger a lot, unfortunately it was terribly slow to load from a casett
 <br>
 
 # toyrouter - a linux router stripped to bare essentials 
-https://github.com/sevenon/toyrouter
+[https://github.com/sevenon/toyrouter](https://github.com/sevenon/toyrouter)
 
 <br>
 
@@ -51,7 +51,7 @@ I decided that I wanted something that is even more from "scratch".
 <br>
 
 # bminus - a c subset compiler
-https://github.com/sevenon/bminus
+[https://github.com/sevenon/bminus](https://github.com/sevenon/bminus)
 
 <br>
 
