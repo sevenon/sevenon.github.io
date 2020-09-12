@@ -9,8 +9,6 @@ Features
 
 - Targets supported:
 
-	- Linux X86 ELF binary executable
-
 	- Linux X86 Assembler
 
 	- CPU emulator implemented in ANSI C
@@ -18,7 +16,7 @@ Features
 	- CPU emulator implemented in Javascript
 
 
-Designed target:
+Designe objectives:
 
 1. **Implement just enough features from the C language to be able to self compile**
 

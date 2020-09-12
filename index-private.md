@@ -1,41 +1,40 @@
 
-
 ![](images/self-240px.jpg)
 
 # *sevenon's project archive*
-<br>
-<br>
+https://github.com/sevenon
+
 <br>
 
 # memorabilia
 
 ![](images/apple2e-120px.jpg)
 
-Apple IIe - I wrote my first program on an Apple IIe. It was in year ten at a Melbourne high school. I was immediately hooked.
-<br>
-<br>
+Apple IIe - I wrote my first program on an Apple IIe. It was year ten at a Melbourne high school. I was immediately hooked.
+
 <br>
 
 ![](images/c128-120px.jpg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](images/c64progref-80px.jpg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](images/c64mikrogep-80px.jpg)
 
 Shortly after my parents bought me a Commodore 128. I had an amber monochrome monitor, disk drive and a dot matrix printer too.
-<br>
 
+<br>
 
 My first IT purchase was a book titled: Commodore 64 Programmer's Reference Guide. It's one of the few memorabilia I kept from my teens. A family friend gave me another book titled: A Commodore 64 mikrogep kezelese es programozasa. It was from Hungary.
-<br>
-<br>
+
 <br>
 
 ![](images/frogger-animation-240px.gif)
 
 I played Frogger a lot, unfortunately it was terribly slow to load from a casette tape. I figured out a way to save the entire game to a floppy disk. I was staring at assembly code for days.
-<br>
-<br>
-<br>
 
+<br>
 
 # toyrouter - a linux router stripped to bare essentials 
+https://github.com/sevenon/toyrouter
+
+<br>
+
 *September 2020*
 
 Bare bones Linux WAN to LAN router.
@@ -50,17 +49,19 @@ I got the inspiration from [The Ars guide to building a Linux router from scratc
 I decided that I wanted something that is even more from "scratch".
 
 <br>
-<br>
-<br>
 
 # bminus - a c subset compiler
+https://github.com/sevenon/bminus
+
+<br>
+
 *November 2014*
 
-Generates assembler or javascript. It can compile itself from within a web browser.
+Generates assembler or javascript. Capable of compiling itself from within a web browser.
 
 Straight forward design. BNF rules map to one function in general. Code is generated straight from a recursive parser.
 
-The code generator module can be replaced independently to support multiple output targets.
+Retargetable - the code generator module can be replaced independently to support multiple output targets.
 
 
 - [Hello world](bminus/hello-world)
@@ -77,11 +78,6 @@ Compiles under Ubuntu 20.04. Replaced Oracle jjs with NodeJs.
 
 
 
-
-
-
-<br>
-<br>
 <br>
 
 -----
