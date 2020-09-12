@@ -1,7 +1,7 @@
 
 Compiling and testing B-minus under Linux
 
-(examples are for 32 bit linux, 64 bit linux require additional flags for gcc, ld, and as)
+(examples are for 32 bit linux, 64 bit linux require 32 bit flags for gcc, ld, and as)
 
 Merge the source code files into one file (bminus does not implement the #include directive)
 

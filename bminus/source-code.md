@@ -18,7 +18,7 @@
 [compiler.h](https://github.com/sevenon/bminus/blob/master/source/compiler.h)
 
 - Breaks down statements and expressions into simple machine language like sequences.
-- Maintains a symbol table for identifiers
+- Maintains a symbol table for identifiers.
 - Functions are closely related to the BNF. Rules in syntax.h call one or more dedicated functions in compiler.h
 
 [target_javascript.h](https://github.com/sevenon/bminus/blob/master/source/target_javascript.h)
@@ -33,12 +33,12 @@
 [bminus.c](https://github.com/sevenon/bminus/blob/master/source/bminus.c)
 
  - Initializes all modules and starts the syntax analyzer
- - (the #ifdef and #include statements let Visual Studio compile the code)
  
-[errormessages.h](https://github.com/sevenon/bminus/blob/master/source/errormessages.h) - A simple helper module to print error messages
+ 
+[errormessages.h](https://github.com/sevenon/bminus/blob/master/source/errormessages.h)
 
 [stringlib.h](https://github.com/sevenon/bminus/blob/master/source/stringlib.h) - Generic string functions
 
-[globals.h](https://github.com/sevenon/bminus/blob/master/source/globals.h) - Declares a couple of constants
+[globals.h](https://github.com/sevenon/bminus/blob/master/source/globals.h)
 
 [Makefile](https://github.com/sevenon/bminus/blob/master/Makefile) - Build and run the test suite

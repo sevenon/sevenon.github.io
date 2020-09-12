@@ -57,7 +57,7 @@ Only constants may be declared, enum types and enum variables are not supported.
 String literals
 ---------------
 
-A string literal is only allowed in function calls as a parameter. Each character in the string is one char (32 bit) wide.
+String literals are only allowed in function calls as a parameter. Each character in the string is one char (32 bit) wide.
 
 ```c
 say("Hello\n");
@@ -133,7 +133,7 @@ Usual rules apply, local variables hide global variables with the same name. No 
 Assignment statement
 --------------------
 
-Assignments are statements, rather than expressions as in C.
+Assignments are statements, not expressions as in C.
 
 ```c
 i = i + 1; // OK
@@ -184,7 +184,7 @@ The only preprocessor directive recognised is: **#line**
 
 All other preprocessor directives are ignored.
 
-**#line** is always followed by the number 2 and a file name in double quotes, no spaces allowed in the file name.
+**#line** is always followed by the number 2 and a file name in double quotes, no spaces allowed in the file name. (this allows #line to be wrappped in an #ifdef directive)
 
 ```c
 
