@@ -41,12 +41,15 @@ Bare bones Linux WAN to LAN router.
 
 Only uses busybox and iptables in user space. Built as a programming exercise, but functional. Probably the simplest router you will find.
 
-Designed to install over Ubuntu by creating a new entry in the Ubuntu boot menu. Uses overlayfs without modifying the Ubuntu user space. 
+Installs over Ubuntu by creating a new entry in the boot menu. Uses overlayfs without modifying the Ubuntu user space. 
 
-Retains the easy installation and hardware compability of Ubuntu with the simplicity of a busybox based userspace.
+Combines the simplicity of a busybox user space with the ease of installation of Ubuntu.
 
 I got the inspiration from [The Ars guide to building a Linux router from scratch](https://arstechnica.com/gadgets/2016/04/the-ars-guide-to-building-a-linux-router-from-scratch/).
 I decided that I wanted something that is even more from "scratch".
+
+- [Testing in VMWare](toyrouter/testing-in-vmware)
+- [Source code and configuration](toyrouter/source-code)
 
 <br>
 <br>
