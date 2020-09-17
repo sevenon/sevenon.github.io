@@ -26,7 +26,7 @@
 - configures ip filtering and forwarding
 - edit to enable access to telnet, ftp, and http from wan
 
-[**/etc/udhcpd.conf**](https://github.com/sevenon/toyrouter/blob/master/lan-updown-event.sh)
+[**/etc/udhcpd.conf**](https://github.com/sevenon/toyrouter/blob/master/udhcpd.conf)
 
 - edit to configure lan ip address and dhcp settings
 
@@ -42,18 +42,9 @@
 
 - router web page accessed at the router's ip address
 
-[/etc/wan-updown-event.sh](https://github.com/sevenon/toyrouter/blob/master/wan-updown-event.sh)
-
-- requests new ip address from wan whenever the interace is brought up
-
-[/etc/lan-updown-event.sh](https://github.com/sevenon/toyrouter/blob/master/lan-updown-event.sh)
-
-- configures the router's ip address as specified in /etc/udhcpd.conf
-
 /bin/busybox
 
 - the busybox binary is included with the source, more recent versions may be available from [https://busybox.net/downloads/binaries/](https://busybox.net/downloads/binaries/)
-
 
 
 
