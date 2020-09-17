@@ -30,7 +30,6 @@
 ## toyrouter install
 - git clone "https://github.com/sevenon/toyrouter"
 - cd toyrouter
-- (check if ttyS? is correct in ubuntu-preinit.sh)
 - sudo sh ubuntu-install.sh
 - sudo update-grub
 - reboot, choose toyrouter from boot menu
