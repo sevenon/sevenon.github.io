@@ -27,7 +27,9 @@
 
 [target_linuxassemblerx86.h](https://github.com/sevenon/bminus/blob/master/source/target_linuxassemblerx86.h)
 
-- All three targets implement the same interface
+[target_linuxelfx86.h](https://github.com/sevenon/bminus/blob/master/source/target_linuxelfx86.h)
+
+- All four targets implement the same interface
 
 
 [bminus.c](https://github.com/sevenon/bminus/blob/master/source/bminus.c)

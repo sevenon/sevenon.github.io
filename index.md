@@ -61,12 +61,15 @@ I decided that I wanted something that is even more from "scratch".
 
 *November 2014*
 
-Generates assembler or javascript. Capable of compiling itself from within a web browser.
+Minimalist C subset compiler. Capable of compiling itself, no external dependencies, no linking, does not use the C library.
+
+Retargetable with four different back ends:
+- C virtual CPU
+- Javascript virtual CPU
+- Assembler
+- Linux elf executable
 
 Straight forward design. BNF rules map to one function in general. Code is generated straight from a recursive parser.
-
-Retargetable - the code generator module can be replaced independently to support multiple output targets.
-
 
 - [Hello world](bminus/hello-world)
 - [Language syntax](bminus/language-syntax)
@@ -80,7 +83,11 @@ Retargetable - the code generator module can be replaced independently to suppor
 
 Compiles under Ubuntu 20.04. Replaced Oracle jjs with NodeJs.
 
+<br>
 
+*October 2020*
+
+New target for generating Linux elf binary.
 
 <br>
 
